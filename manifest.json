@@ -1,0 +1,45 @@
+{
+	"manifest_version": 1,
+	"script": "dijkstra.js",
+	"config": {
+		"groups": [
+			{
+				"name": "Simple Dijkstra Config",
+				"options": [
+					{
+						"id": "origin",
+						"type": "choice",
+						"label":  "Destination",
+						"default": "north_adams",
+						"choices": {
+							"North Adams": "north_adams",
+							"Pittsfield": "pittsfield",
+							"Lee": "lee",
+							"Springfield": "springfield",
+							"Northampton": "northampton",
+							"Greenfield": "greenfield",
+							"Fitchburg": "fitchburg",
+							"Worcester": "worcester"
+						}
+					},
+					{
+						"id": "destination",
+						"type": "choice",
+						"label":  "Destination",
+						"default": "worcester",
+						"choices": {
+							"North Adams": "north_adams",
+							"Pittsfield": "pittsfield",
+							"Lee": "lee",
+							"Springfield": "springfield",
+							"Northampton": "northampton",
+							"Greenfield": "greenfield",
+							"Fitchburg": "fitchburg",
+							"Worcester": "worcester"
+						}
+					}
+				]
+			}
+		]
+	}
+}
